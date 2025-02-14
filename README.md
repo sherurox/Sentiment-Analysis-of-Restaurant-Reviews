@@ -13,7 +13,7 @@ This project applies **Natural Language Processing (NLP)** techniques to classif
 
 ## 📊 Dataset Description
 - The dataset is stored in a **TSV (Tab-Separated Values)** file: `Restaurant_Reviews.tsv`.
-- It consists of restaurant reviews along with their sentiment labels (positive/negative).
+- It consists of restaurant reviews along with their sentiment labels (positive/negative). <br>
 ![image](https://github.com/user-attachments/assets/f6007102-5ba0-43b6-93bb-5fe0415dd5ee)
 
 
