@@ -39,7 +39,7 @@ This project applies **Natural Language Processing (NLP)** techniques to classif
 - Use `CountVectorizer` to convert text into a **Bag-of-Words** model.
 
 ### 3️⃣ Model Training
-- Train a **Machine Learning classifier** (e.g., Naïve Bayes, Logistic Regression, or SVM) on the processed text.
+- Train a **Naïve Bayes classifier** with **hyperparameter tuning**.
 - Split dataset into **training and testing sets**.
 
 ### 4️⃣ Model Evaluation
@@ -48,6 +48,33 @@ This project applies **Natural Language Processing (NLP)** techniques to classif
   - Accuracy Score
   - Precision, Recall, and F1-score
   - Confusion Matrix
+
+## 📊 Model Performance Results
+| Metric                  | Value |
+|-------------------------|-------|
+| **Best Accuracy Score** | **85.5%** |
+| **Optimal Alpha Value** | **0.2** |
+| **Confusion Matrix**    | See below |
+
+### **Confusion Matrix**
+|                   | Predicted Negative | Predicted Positive |
+|-------------------|-------------------|-------------------|
+| **Actual Negative** | 76 | 21 |
+| **Actual Positive** | 18 | 85 |
+
+### **Hyperparameter Tuning Results (Naïve Bayes Alpha Parameter)**
+| Alpha (α) Value | Accuracy (%) |
+|----------------|-------------|
+| 0.1 | 84.0% |
+| 0.2 | 85.5% |
+| 0.3 | 84.8% |
+| 0.4 | 84.2% |
+| 0.5 | 83.9% |
+| 0.6 | 83.5% |
+| 0.7 | 83.1% |
+| 0.8 | 82.7% |
+| 0.9 | 82.4% |
+| 1.0 | 82.0% |
 
 ## 🚀 How to Run the Project
 1. **Clone the Repository**:
@@ -71,9 +98,9 @@ This project applies **Natural Language Processing (NLP)** techniques to classif
 ## 🤝 Contributing
 Feel free to fork the repository and submit **pull requests** for improvements.
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
 ## Authors & Acknowledgments
 Shreyas Khandale (https://github.com/sherurox) <br>
-Rohan Patil (https://github.com/rohanpatil2) <br>
+Rohan Patil (https://github.com/rohanpatil2) <be>
+
+## 📜 License
+This project is licensed under the **MIT License**.
