@@ -77,7 +77,7 @@ This project applies **Natural Language Processing (NLP)** techniques to classif
 | 0.8 | 82.7% |
 | 0.9 | 82.4% |
 | 1.0 | 82.0% |
-![image](https://github.com/user-attachments/assets/20fb255d-8396-47d0-8dab-8f422e193c1c)
+![image](https://github.com/user-attachments/assets/6bf02b0f-2632-486f-b872-99dcf7cdb9e3)
 
 
 ## 🚀 How to Run the Project
