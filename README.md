@@ -64,9 +64,6 @@ This project applies **Natural Language Processing (NLP)** techniques to classif
 | **Actual Negative** | 76 | 21 |
 | **Actual Positive** | 18 | 85 |
 
-<br>![image](https://github.com/user-attachments/assets/59d553a8-6a26-4473-870b-37af04875cff)
-
-
 ### **Hyperparameter Tuning Results (Naïve Bayes Alpha Parameter)**
 | Alpha (α) Value | Accuracy (%) |
 |----------------|-------------|
